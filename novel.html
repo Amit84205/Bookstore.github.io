@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Josefin+Sans" />
+    <script src="https://kit.fontawesome.com/4cd457a180.js" crossorigin="anonymous"></script>
+    <title>Bookopolis | Manga</title>
+    <link rel="icon" type="image/x-icon" href="a.png">
+    <link rel="stylesheet" href="novel.css">
+    <!-- <script src="index.js"></script> -->
+</head>
+
+<body>
+    <div id="header">
+        <div class="main">
+            <nav>
+                <h2 class="logo">Booko<span id="span1">polis</span></h2>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#genre">Genre</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <a href="#" class="btn">Shopping Cart</a>
+                </ul>
+                <!-- <a href="#" class="btn">Shopping Cart</a> -->
+            </nav>
+
+            <div class="content">
+                <h4>Bookopolis book store</h4>
+
+                <div class="title">
+                  <h2 >Novel</h2>
+              </div>
+  
+              <section class="swiper mySwiper">
+                 <div class="swiper-wrapper">
+                  <div class="card swiper-slide">
+                    <img src="novel.jpg" alt="card image">
+                      <div class="card__image">
+                      </div>
+              
+                      <div class="card__content">
+                        <span class="card__title">The Invisible Man</span>
+                        <button class="card__btn">Details</button>
+                      </div>
+                    </div>
+  
+                 <div class="card swiper-slide">
+                  <img src="novel2.jpg" alt="card image">
+                  <div class="card__image">
+                   
+                  </div>
+          
+                  <div class="card__content">
+                    <span class="card__title">THE HILL WE CLIMB</span>
+                    <button class="card__btn">Details</button>
+                  </div>
+                </div>
+          
+                <div class="card swiper-slide">
+                  <img src="novel3.jpg" alt="card image">
+                  <div class="card__image">
+                    
+                  </div>
+          
+                  <div class="card__content">
+                    <span class="card__title">The MIDNIGHT LIBRARY</span>
+                    <button class="card__btn">Details</button>
+                  </div>
+                </div>
+          
+                <div class="card swiper-slide">
+                  <img src="novel4.jpg" alt="card image">
+                  <div class="card__image">
+                   
+                  </div>
+          
+                  <div class="card__content">
+                    <span class="card__title">CRYING IN H MART</span>
+                    <button class="card__btn">Details</button>
+                  </div>
+                </div>
+              </section>
+               
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 300,
+        modifier: 1,
+        slideShadows: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+
+    <div id="contact">
+        <footer>
+            <p>Bookopolis Online Book Store</p>
+            <p>For More - Click on the link below</p>
+            <div class="social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="$"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+            <p class="end">
+                <i class="fa fa-copyright"></i> Copyright by Bookopolis
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
